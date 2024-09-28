@@ -154,11 +154,11 @@
     padding: 5px 0;
 }
 
-.item-namee {
+.item-name {
     margin-right: 30px;
 }
 
-.item-deteils {
+.item-details {
     display: flex;
     align-items: center;
 }

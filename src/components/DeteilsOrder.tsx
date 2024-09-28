@@ -25,8 +25,8 @@ const DetailsOrder: React.FC<DetailsOrderProps> = ({order, onRemove}) => {
                             {order.map((orderItem) => (
                                 <li className="li-marker"
                                     key={orderItem.item.id}>
-                                    <div className="item-namee">{orderItem.item.name}</div>
-                                    <div className="item-deteils">
+                                    <div className="item-name">{orderItem.item.name}</div>
+                                    <div className="item-details">
                                     <span
                                         className="span-itemPrice">x{orderItem.quantity} - {orderItem.item.price * orderItem.quantity} KGS
                                     </span>
