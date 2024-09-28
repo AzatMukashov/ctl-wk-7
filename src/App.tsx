@@ -1,8 +1,8 @@
-import './App.css'
-import ItemAddButton from "./components/ItemAddButton.tsx";
-import DetailsOrder from "./components/DeteilsOrder.tsx";
-import {MenuItem, OrderItem} from "./types";
-import React, {useState} from "react";
+import './App.css';
+import ItemAddButton from './components/ItemAddButton.tsx';
+import DetailsOrder from './components/DeteilsOrder.tsx';
+import {MenuItem, OrderItem} from './types';
+import React, {useState} from 'react';
 
 const App: React.FC = () => {
     const [order, setOrder] = useState<OrderItem[]>([]);
@@ -48,4 +48,4 @@ const App: React.FC = () => {
         </div>
     );
 };
-export default App
+export default App;

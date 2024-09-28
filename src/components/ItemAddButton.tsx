@@ -1,5 +1,5 @@
-import React from "react";
-import {MenuItem} from "../types";
+import React from 'react';
+import {MenuItem} from '../types';
 
 interface ItemAddButtonProps {
     item: MenuItem;

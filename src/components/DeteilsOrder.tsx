@@ -1,5 +1,5 @@
 import React from 'react';
-import {OrderItem} from "../types";
+import {OrderItem} from '../types';
 import IconX from '../assets/remov.png';
 
 interface DetailsOrderProps {
