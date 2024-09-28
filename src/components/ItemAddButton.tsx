@@ -16,7 +16,7 @@ const ItemAddButton: React.FC<ItemAddButtonProps> = ({item, onAdd}) => {
                   src={item.image}
                   alt={item.name}/>
                 <div className="name-price">
-                    <span className="item-name">{item.name}</span>
+                    <span>{item.name}</span>
                     <span className="item-price">Price: {item.price} KGS</span>
                 </div>
             </button>
